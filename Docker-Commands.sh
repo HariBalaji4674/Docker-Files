@@ -70,6 +70,13 @@ docker image --> docker create --> conatiner created
 docker start container-name
 
 
+docker from : download the operating system 
+
+RUN --> just install the os and configure inside base os and it will run at image creation
+
+cmd --> it is to run the container and it will run at container crearion
+
+
 
 
 
