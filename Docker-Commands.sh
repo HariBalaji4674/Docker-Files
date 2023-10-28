@@ -60,6 +60,16 @@ Docker file:
 
 A Dockerfile is a text file that contains collections of instructions and commands that will be automatically executed in sequence in the docker environment for building a new docker image.
 
+for building the images:command used 
+
+docker build docker filename 
+docker build --tag <give-image-name> docker file name
+
+docker file --> docker build --> image created
+docker image --> docker create --> conatiner created
+docker start container-name
+
+
 
 
 
