@@ -77,6 +77,8 @@ RUN --> just install the os and configure inside base os and it will run at imag
 cmd --> it is to run the container and it will run at container crearion
 
 
+Docker Conatiner LifeCycle Explanation:
+
 
 
 
