@@ -12,5 +12,6 @@ Docker Session - 51
 
 Docker Session - 52
     00:00 -- Docker Installation
-    
+    10:00 -- LABEL Instruction
+    19:00 -- Expose Instruction
 
