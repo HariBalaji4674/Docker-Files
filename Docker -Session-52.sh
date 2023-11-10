@@ -10,4 +10,4 @@ docker inspect --> to inspect the all info about docker commands
 
 For Filtering the images using labels:
 
-docker images --filter label=<key>=<value>
+docker images --filter label=<key>=<value>  
