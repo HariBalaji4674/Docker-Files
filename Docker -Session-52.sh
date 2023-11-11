@@ -14,3 +14,6 @@ Expose Instruction :
     EXPOSE 80/tcp
     expose will not adding any functionalities this is just instruction for conatiner builder
 
+ENV Instruction :
+    we can add environment variables to the container 
+    it is as same as Labels but env will be used in conatiner but lables will not 
