@@ -1,13 +1,16 @@
 Topics Discussed:
 
-docker file creation:
+Labels Instruction:
+
     LABEL : Giving key value pairs to the docker file
-    
+    lables are the key-value pairs that represents the tags for images not for the containers
+    images can be filtered based on the labels like 
+    docker build -t <image-name> .
+    docker images --filter labels=key=value
+    docker inspect <image-id> --> This can inspect all the details about the images
 
-docker build -t <imagename>:<image-version>
-docker inspect <image-name>
+Expose Instruction :
+    we can instruct the container builder to set the port for the conatiner based on the expose instruction 
+    EXPOSE 80/tcp
+    expose will not adding any functionalities this is just instruction for conatiner builder
 
-docker inspect --> to inspect the all info about docker commands
-
-For Filtering the images using labels:
-    docker images --filter label=<key>=<value>  
