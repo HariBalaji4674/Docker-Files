@@ -14,6 +14,7 @@ docker create <image-id> --> it will create the container
 docker ps --> will list the running containers
 docker ps -a --> will show all the containers
 docker start <container-id> --> it will start the container id 
+docker run = docker build + docker create + docker start
 
 Steps:
     pulled image
@@ -22,10 +23,15 @@ Steps:
 
 Removing the Containers:
  
- docker images -a -q ---> to list down only image names
- docker rmi --> removing images
- docker rm --> remove containers
- docker rm `docker ps -a -q` --> remove all containers`
+    docker images -a -q ---> to list down only image names
+    docker rmi --> removing images
+    docker rm --> remove containers
+    docker rm `docker ps -a -q` --> remove all containers
+    docker rm $(docker ps -a -q) --> remove all containers
+
+    docker logs <container name>
+    docker inspect <conatiner id> --> which can check the container information
+    docker 
 
 
 Port Forwarding:
@@ -77,11 +83,19 @@ RUN --> just install the os and configure inside base os and it will run at imag
 cmd --> it is to run the container and it will run at container crearion
 
 Docker Conatiner LifeCycle Explanation:
+    docker build image
+    docker create container
+    docker start conatiner 
+    docker stop
+    docker restart
+    docker kill
+    doker network
 
-
-
-
-
-
-Ravindra Babu Ravula networking concepts
-aws-Abhishek
+Docker network Commands:
+    connect     Connect a container to a network
+    create      Create a network
+    disconnect  Disconnect a container from a network
+    inspect     Display detailed information on one or more networks
+    ls          List networks
+    prune       Remove all unused networks
+    rm          Remove one or more networks.
