@@ -1,5 +1,4 @@
 Docker Session - 51 
-
 00:00--Docker Theory Concepts
 15:00 -- Docker Installation
 18:00 -- Adding user to docker group
@@ -15,5 +14,8 @@ Docker Session - 52
     10:00 -- LABEL Instruction
     19:00 -- Expose Instruction
     24:00 -- ENv Instruction
+    30:00 -- Copy Instruction
+     
+
     
 
