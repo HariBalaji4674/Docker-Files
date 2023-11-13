@@ -14,8 +14,22 @@ Docker Session - 52
     10:00 -- LABEL Instruction
     19:00 -- Expose Instruction
     24:00 -- ENv Instruction
-    30:00 -- Copy Instruction
-     
+    38:00 -- Copy Instruction
+    48:00 -- Docker Push Method
+    56:00 -- Docker ADD Instruction
+ 01:05:00 -- Entry Point Instruction
+
+Docker Session - 52
+    05:00 -- User Instruction
+    11:00 -- Work Directory Instruction
+    15:00 -- Arguments Instructions
+    30:00 -- Onbuild Instructions
+    
+
+
+
+
+
 
     
 
