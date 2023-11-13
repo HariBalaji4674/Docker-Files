@@ -24,7 +24,9 @@ Docker Session - 52
     11:00 -- Work Directory Instruction
     15:00 -- Arguments Instructions
     30:00 -- Onbuild Instructions
+    40:00 -- Roboshop Web Component Building
     
+
 
 
 
