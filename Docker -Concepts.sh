@@ -50,7 +50,7 @@ Docker CMD:
  
 Docker Session -- 53 
 
-Docker USER Instructions:
+Docker USER Instructions: Instructions
 Docker WorkDirectory: Instead of cd command in normal linux we used workdir instruction to set the workdirectory where we should save the file 
 
 Docker Arg Commands:
