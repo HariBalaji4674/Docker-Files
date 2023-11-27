@@ -1,5 +1,5 @@
 usermod -aG docker centos
-dpcker ps --> will give the all images in docker
+docker ps --> will give the all images in docker
 docker images --> it will list down the images in the docker
 docker pull <image-name> --> download the image from docker hub      :...eg :docker pull nginx
 docker hub  --> its like a repository where all images are available
@@ -99,3 +99,5 @@ Docker network Commands:
     ls          List networks
     prune       Remove all unused networks
     rm          Remove one or more networks.
+
+docker push <docker.io>/<docker.username>:imagename
