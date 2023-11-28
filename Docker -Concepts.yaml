@@ -1,6 +1,42 @@
 Topics Discussed:
 Docker Introduction: Session 51 
 
+What is Container:
+    Container is a executing environment with configurable isolation and resource limitations
+    Containers are light weight in nature
+    Resources Limitations : Namespaces,Resources Limitations, Mounts etc ..
+Why Containers are needed:
+    First Thing Run at Any environment
+    Encapsulate the Application code and its all dependencies
+    Self-describing and portable 
+    It can run withiut any extra dependencies 
+What is a Container Image:
+    Image: Contains Application Code , Dependencies, Os where the application should Run
+    It is a collection of read only layers.These layers are loosly coupled
+    
+Difference Between VMs and Containers :
+VM:
+    VM is Hardware Virtualization
+    VM should conatin full operating system with invidual machine
+    VM is high secure 
+    VM is Multiple Machines each with its own guest OS
+Containers:
+    Light weight in nature
+    Minimal OS is required
+    Portable 
+    Isolation of VMs
+    Multiple Instances of Single Application
+Describe a Process of Containerization of Application:
+    Write a Dockerfile
+    Build the image with that file 
+    Push the image to repository 
+    Run the image to create a container
+    
+docker run exec -it <container-name> bash
+Why Containers are Relatively Small:
+    Images dont contain kernel. They share and access the one used by the host on which they are running
+    
+
 Vitualization --> Logical isolation of one pysical systems into multiple systems
 
 Image is Static and immutable 
@@ -15,8 +51,13 @@ docker run = pull + Create + Start
 docker port forwarding
 
 Docker FROM
-Docker RUN
-Docker CMD
+Docker RUN :
+    Run instuction will run at the time of image creation 
+    It is used to install all packages required to build an image and run the conatiner 
+    
+Docker CMD :
+    the instruction is used to RUN the container with given Instructions
+    
 Docker EntryPoint
 
 Labels Instruction: Session 52:
